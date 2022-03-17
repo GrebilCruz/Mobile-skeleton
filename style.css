@@ -38,13 +38,13 @@ body {
 	align-items: center;
 }
 
-.navbar_icon{
+.navbar_icon {
 	position: relative;
-  right:20px;
+    right:20px;
 
 }
 
-#headline{
+#headline {
 	background-image:url(./image/background.png);
 	background-size:cover;
 	height: auto;
@@ -52,7 +52,6 @@ body {
 	padding-top: 206px;
 	padding-left: 26px;
 	padding-right: 26px;
-
 	font-size: 40px;
 	font-style: normal;
 	font-weight: 700;
@@ -62,7 +61,7 @@ body {
 	
 }
 
-#headline p{
+#headline p {
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
@@ -70,7 +69,7 @@ body {
 	letter-spacing: 0em;
 	text-align: left;
 }
-.connect{
+.connect {
 	position: static;
 	width: 117px;
 	height: 24px;
@@ -88,6 +87,13 @@ body {
 	margin: 0px 8px;
 }
 
-.greeting{
+.greeting {
 	padding left:24px ;
+}
+
+.social_items {
+	position: static;
+	height: 20px;
+	top: 470px;
+	padding-left: 0px;
 }
