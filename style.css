@@ -12,7 +12,7 @@
   height: 48px;
   left: 0;
   top: 0;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .navbar_logo:hover {
@@ -54,7 +54,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0oem;	
+  letter-spacing: 0;
 }
 
 #headline p {
@@ -62,34 +62,34 @@
   font-style: normal;
 	font-weight: 400;
 	line-height: 24px;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: left;
 }
 
 .connect {
-	position: static;
-	width: 117px;
-	height: 24px;
-	left: 0;
-	top: 0;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 24px;
-	color: #7F8CFF;
-	flex: none;
-	order: 0;
-	flex-grow: 0;
-	margin: 0px 8px;
+  position: static;
+  width: 117px;
+  height: 24px;
+  left: 0;
+  top: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8Cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0, 8px;
 }
 
 .greeting {
-	padding-left: 4px;
+  padding-left: 4px;
 }
 
 .social_items {
-	position: static;
-	height: 20px;
-	top: 470px;
+  position: static;
+  height: 20px;
+  top: 470px;
   padding-left: 0;
 }
