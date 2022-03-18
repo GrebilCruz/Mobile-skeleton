@@ -37,15 +37,15 @@ body {
   text-align: center;
 }
 
-.navbar_icon {
+.navbar_icon a {
   position: relative;
   top: 10px;
   right: 12px;
 }
 
-.navbar_icon:hover {
+.navbar_icon a:hover {
   width: auto;
-  top: -2px;
+  top:9px;
   display: flex;
   align-items: center;
 }
