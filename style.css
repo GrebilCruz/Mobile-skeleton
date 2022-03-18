@@ -37,7 +37,7 @@ body {
 
 .navbar_icon:hover {
   width: auto;
-  top: -2px;
+  top: 10px;
   display: flex;
   align-items: center;
 }
