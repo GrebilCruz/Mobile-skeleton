@@ -13,10 +13,17 @@ body {
   left: 0;
   top: 0;
   color: #6070ff;
+  list-style-type: none;
+}
+
+.navbar_logo a{
+  position: relative;
+  left: 12px;
+  top: 10px;
+  text-decoration: none; 
 }
 
 .navbar_logo:hover {
-  position: static;
   width: auto;
   height: 20px;
   left: 12px;
@@ -32,14 +39,16 @@ body {
 
 .navbar_icon {
   position: relative;
-  right: 20px;
+  top: 10px;
+  right: 12px; 
 }
 
 .navbar_icon:hover {
   width: auto;
-  top: 10px;
+  top: -2px;
   display: flex;
   align-items: center;
+  display: flex;
 }
 
 #headline {
@@ -88,7 +97,13 @@ body {
 
 .social_items {
   position: static;
+  display: inline-block;
   height: 20px;
   top: 470px;
   padding-left: 0;
+  list-style-type:none;
+}
+
+.social_icon{
+  display: inline;
 }
