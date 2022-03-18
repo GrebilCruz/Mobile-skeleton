@@ -10,8 +10,8 @@ body {
 	position: static;
 	width: 100%;
 	height: 48px;
-	left: 0px;
-	top: 0px;
+	left: 0;
+	top: 0;
 	color: #6070FF;
 }
 
@@ -55,7 +55,7 @@ body {
 	font-style: normal;
 	font-weight: 700;
 	line-height: 52px;
-	letter-spacing: 0em;
+	letter-spacing: 0oem;
 	text-align: left;
 	
 }
@@ -73,8 +73,8 @@ body {
 	position: static;
 	width: 117px;
 	height: 24px;
-	left: 0px;
-	top: 0px;
+	left: 0;
+	top: 0;
 	font-family: 'Poppins';
 	font-style: normal;
 	font-weight: 500;
