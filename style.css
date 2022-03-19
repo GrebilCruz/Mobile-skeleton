@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
 }
 
 .container {
@@ -38,7 +38,7 @@ body {
 }
 
 .navbar_icon a {
-  position: relative;
+  position: fixed;
   top: 20px;
   right: 34px;
 }
@@ -111,3 +111,131 @@ body {
   display: inline;
   padding-top: 20px;
 }
+#works {
+  background: #e5e5e5;
+  padding-top: 40px;
+}
+
+#grid_container {
+  display: flex;
+  display: grid;
+  top: 20px;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  grid-row-gap: 40px;
+  grid-template-rows: repeat(4, 729x);
+  grid-template-columns: 400px;
+  justify-content: center;
+}
+
+.imagetonic img{
+  max-width: 100%;
+}
+
+.tonic_section {
+  margin-left: 14px;
+  margin-right: 14px;
+  display:flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color:#FFFFFF;
+  background: #ffffff;
+  border: 1px solid #Dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  top: 20px;
+}
+
+.tonic_items {
+  display: inline;
+  position: static;
+  width: 200px;
+  height: 200px;
+  left: 0px;
+  font-family: 'Poppins';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left; 
+}
+
+.tonics_1 {
+  margin: 5px;
+  font-family: 'Poppins';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgba(23, 43, 77, 1);
+}
+
+.tonic_container li {
+  margin-left: 5px;
+  padding: 0;
+}
+
+.tonics_stuffs ul {
+  text-align: left;
+  padding: 0;
+}
+
+.daily_selection h4 {
+ position: static;
+ font-size: 15px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 24px;
+ letter-spacing: 0em;
+ text-align: left;
+}
+
+.languajes_container {
+  justify-content: space-between;
+  padding: 0;
+}
+
+.languajes_container li {
+  display: inline;
+  margin: 0 15px 0 0 ;
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 16px;
+  color: rgba(96, 112, 255, 1);
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+
+}
+
+.project {
+  max-width: fit-content;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 16px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396DF2;
+  border-radius: 16px;
+  background-color:#ffffff;
+  border: 1px solid #396df2;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+ 
