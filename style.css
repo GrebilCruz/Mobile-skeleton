@@ -238,11 +238,13 @@ body {
   border: 1px solid #396df2;
   box-sizing: border-box;
 }
-.project:hover{
+
+.project:hover {
   background-color: #3d6bdf;
   color: #fff;
   transition: 0.5s;
 }
+
 #about_me {
   background: #e5e5e5;
   padding-top: 40px;
@@ -348,8 +350,8 @@ body {
   background-color: #fff;
   border-bottom: 1px solid rgba(223, 225, 230, 1);
 }
+
 img.arrow{
   position: relative;
   float: right;
-  top: 15px;
 }
