@@ -328,7 +328,7 @@ body {
 .langguage_items {
   background: rgba(247, 247, 249, 1);
   border-radius: 8px;
-  color:rgba(37, 56, 88, 1);
+  color: rgba(37, 56, 88, 1);
   margin: 12px 0;
 }
 
@@ -336,7 +336,7 @@ body {
   justify-content: space-between;
   padding: 5px;
   margin: 5px;
-  vertical-align: middle;  
+  vertical-align: middle;
 }
 
 .list_langguages {
@@ -351,7 +351,7 @@ body {
   border-bottom: 1px solid rgba(223, 225, 230, 1);
 }
 
-img.arrow{
+img.arrow {
   position: relative;
   float: right;
 }
