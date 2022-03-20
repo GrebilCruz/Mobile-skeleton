@@ -125,7 +125,6 @@ body {
 }
 
 #grid_container {
-  display: flex;
   display: grid;
   top: 20px;
   width: 100%;
@@ -239,7 +238,11 @@ body {
   border: 1px solid #396df2;
   box-sizing: border-box;
 }
-
+.project:hover{
+  background-color: #3d6bdf;
+  color: #fff;
+  transition: 0.5s;
+}
 #about_me {
   background: #e5e5e5;
   padding-top: 40px;
@@ -323,15 +326,15 @@ body {
 .langguage_items {
   background: rgba(247, 247, 249, 1);
   border-radius: 8px;
-  color: rgba(37, 56, 88, 1);
+  color:rgba(37, 56, 88, 1);
   margin: 12px 0;
 }
 
 .langguage_items img {
-  justify-content: center;
+  justify-content: space-between;
   padding: 5px;
   margin: 5px;
-  vertical-align: middle;
+  vertical-align: middle;  
 }
 
 .list_langguages {
@@ -344,4 +347,9 @@ body {
   border-radius: 5px;
   background-color: #fff;
   border-bottom: 1px solid rgba(223, 225, 230, 1);
+}
+img.arrow{
+  position: relative;
+  float: right;
+  top: 15px;
 }
