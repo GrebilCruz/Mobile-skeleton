@@ -189,11 +189,11 @@ body {
   padding: 0;
 }
 
-.daily_selection h4 {
+.daily_selection {
   position: static;
-  font-size: 15px;
+  font-size: 20px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500px;
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
@@ -255,7 +255,7 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   grid-row-gap: 40px;
-  grid-template-rows: repeat(4, 1000px);
+  grid-template-rows: repeat(4, 1150px);
   grid-template-columns: 400px;
   justify-content: center;
 }
@@ -339,19 +339,22 @@ body {
   vertical-align: middle;
 }
 
-.list_langguages {
+.list_langguages1 {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0;
-  padding: 5px;
-  border-radius: 5px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 20px;
   background-color: #fff;
   border-bottom: 1px solid rgba(223, 225, 230, 1);
 }
 
 img.arrow {
   position: relative;
+  vertical-align: middle;
+  width: 15px;
   float: right;
+  margin-top: 7px;
 }
