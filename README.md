@@ -3,7 +3,7 @@
 
 # Portfolio
 
-> Built my own portfolio
+> Built my own portfolio templates work section and about me
 
 
 ## Built With
