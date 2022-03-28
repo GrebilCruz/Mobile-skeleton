@@ -18,7 +18,7 @@ body {
 
 .navbar_logo a {
   position: relative;
-  left: 34px;
+  left: 54px;
   top: 20px;
   text-decoration: none;
 }
@@ -63,6 +63,7 @@ body {
   font-weight: 700;
   line-height: 52px;
   letter-spacing: 0;
+  margin-left: 20px;
 }
 
 #headline h2 {
@@ -232,7 +233,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
-  border-radius: 16px;
+  border-radius: 7px;
   background-color: #fff;
   border: 1px solid #396df2;
   box-sizing: border-box;
@@ -254,7 +255,7 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   grid-row-gap: 40px;
-  grid-template-rows: repeat(4, 1200px);
+  grid-template-rows: repeat(1, 1200px);
   grid-template-columns: 400px;
   justify-content: center;
 }
@@ -356,4 +357,86 @@ img.arrow {
   width: 15px;
   float: right;
   margin-top: 7px;
+}
+
+.contact_me_container {
+  background-image:url(image/backgroundcontact.png);
+  height: auto;
+  background-size: cover;
+  height: auto;
+  background-repeat: no-repeat;
+  padding-top: 76px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-bottom: 20px;
+  font-size: 35px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  line-height: 52px;
+  letter-spacing: 0;
+  background-color: rgba(96, 112, 255, 1);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contact_me_container h2 {
+position: static;
+width: auto;
+margin-left: 0;
+top: 2px;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+color: #fff;
+}
+
+.contact_me_container h3 {
+  position: relative;
+  width: 327px;
+  padding-left: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  min-width: 300px;
+  margin: 0;
+}
+
+.form {  
+  min-width: 300px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.form_input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.form textarea {
+  margin-top: 10px;
+  padding: 10px;
+  min-height: 150px;
+  min-width: 150px;
+}
+
+.project:active {
+  background-color: rgba(34, 48, 210, 1);
+}
+
+::placeholder {
+  font-family: 'Poppins';
 }
