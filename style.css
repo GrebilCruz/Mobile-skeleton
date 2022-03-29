@@ -412,7 +412,7 @@ img.arrow {
   margin-right: 10px;
 }
 
-.form {  
+.form {
   min-width: 300px;
   text-align: center;
   padding: 10px;
@@ -437,5 +437,5 @@ img.arrow {
 }
 
 ::placeholder {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
 }
