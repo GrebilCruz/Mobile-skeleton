@@ -61,6 +61,7 @@ body {
   line-height: 52px;
   display: flex;
   color: #fff;
+  margin-bottom: 15px;
 }
 
 #headline {
@@ -314,18 +315,19 @@ body {
   color: rgba(23, 43, 77, 1);
 }
 
-.contact_me_container h3 {
+.contact_me_container p {
   position: relative;
   width: 327px;
-  padding-left: 16px;
+  padding-left: 15px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
   color: #ebebff;
   min-width: 300px;
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 #about_me h3 {
@@ -389,12 +391,12 @@ img.arrow {
 .contact_me_container {
   background-image: url(image/backgroundcontact.png);
   height: auto;
-  background-size: cover;
+  background-size: 55% 92%;
+  background-position: right;
   background-repeat: no-repeat;
   padding-top: 76px;
   padding-left: 26px;
   padding-right: 26px;
-  padding-bottom: 20px;
   font-size: 35px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -409,7 +411,7 @@ img.arrow {
   justify-content: center;
   border-top-left-radius: 100px;
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 0px;
 }
 
 .form {
@@ -417,17 +419,22 @@ img.arrow {
   text-align: center;
   padding: 10px;
   border-radius: 15px;
+  margin-top: 18px;
 }
 
 .form_input {
-  width: 100%;
-  padding: 10px;
+  width: 95%;
+  max-width: 95%;
+  padding: 15px;
   border-radius: 7px;
+  border: none;
+  margin-top: 18px;
+  margin-right: 50px;
 }
 
 .form textarea {
-  margin-top: 10px;
-  padding: 10px;
+  margin-top: 18px;
+  padding: 15px;
   min-height: 150px;
   min-width: 150px;
 }
@@ -438,4 +445,25 @@ img.arrow {
 
 ::placeholder {
   font-family: 'Poppins', sans-serif;
+  color: #b3bac5;
+}
+
+.project1 {
+  width: fit-content;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  border-radius: 7px;
+  background-color: #fff;
+  border: 1px solid #396df2;
+  box-sizing: border-box;
 }
