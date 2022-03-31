@@ -308,8 +308,6 @@ body {
   display: grid;
   top: 20px;
   width: 100%;
-  margin-left: 10px;
-  margin-right: 10px;
   grid-row-gap: 40px;
   grid-template-rows: repeat(1, 1200px);
   grid-template-columns: 400px;
@@ -318,15 +316,16 @@ body {
 
 .about_container {
   margin-left: 14px;
-  margin-right: 14px;
+  margin-right: 124px;
   display: flex;
   flex-direction: column;
   padding: 16px;
   background: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
-  border-radius: 16px;
+  border-top-right-radius: 90px;
   top: 20px;
+  padding-bottom: 60px;
 }
 
 .about_myself {
@@ -614,7 +613,7 @@ img.arrow {
   }
 
   .about_myself h1 {
-    margin-left: 170px;
+    margin-left: 80px;
   }
 
   #desktop_headline h1 {
@@ -631,7 +630,8 @@ img.arrow {
   }
 
   .about_myself p {
-    margin-left: 170px;
+    margin-left: 80px;
+    margin-right: 20px;
   }
 
   .desktopsocial_media {
@@ -694,20 +694,19 @@ img.arrow {
   #headline h1 {
     margin-top: 200px;
     width: 450px;
-    margin-left: 170px;
   }
 
   #headline h2 {
-    width: 70%;
-    margin-left: 170px;
+    width: 90%;
+    margin-left: 80px;
   }
 
   .connect {
-    margin-left: 170px;
+    margin-left: 80px;
   }
 
   .social_media {
-    margin-left: 170px;
+    margin-left: 80px;
   }
 
   #grid_container {
@@ -775,12 +774,13 @@ img.arrow {
   }
 
   .project_Desktop {
-    margin-left: 170px;
+    margin-left: 80px;
   }
 
   .langguages_box {
     width: 50%;
     margin-top: 80px;
+    margin-right: 100px;
   }
 
   .langguages_box ol {
