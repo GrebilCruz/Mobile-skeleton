@@ -144,8 +144,6 @@ body {
   top: 20px;
   width: 100%;
   margin-top: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
   grid-row-gap: 40px;
   grid-template-rows: repeat(4, 729px);
   grid-template-columns: 400px;
@@ -251,8 +249,8 @@ body {
 
 .project {
   width: fit-content;
-  margin-top: 60px;
-  margin-bottom: 20px;
+  margin-top: 10%;
+  margin-bottom: 30%;
   padding: 10px;
   font-style: normal;
   font-weight: 500;
@@ -525,7 +523,7 @@ img.arrow {
 
 /* <<<<<<<<<<<DESKTOP VERSION>>>>>>>>>>>>>>>>> */
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 768px) {
   .nav_bar {
     display: none;
   }
@@ -694,6 +692,7 @@ img.arrow {
   #headline h1 {
     margin-top: 200px;
     width: 450px;
+    margin-left: 80px;
   }
 
   #headline h2 {
