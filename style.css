@@ -67,7 +67,7 @@ body {
 #headline {
   background-image: url(./image/background.png);
   background-size: cover;
-  height: auto;
+  height: 580px;
   background-repeat: no-repeat;
   padding-top: 76px;
   padding-left: 26px;
@@ -526,9 +526,7 @@ img.arrow {
 
 /* <<<<<<<<<<<DESKTOP VERSION>>>>>>>>>>>>>>>>> */
 
-@media only screen and (min-width: 900px)
-
-  {
+@media only screen and (min-width: 900px) {
   .nav_bar {
     display: none;
   }
@@ -615,6 +613,10 @@ img.arrow {
     text-align: left;
   }
 
+  .about_myself h1 {
+    margin-left: 170px;
+  }
+
   #desktop_headline h1 {
     font-size: 48px;
     font-style: normal;
@@ -622,6 +624,14 @@ img.arrow {
     line-height: 60px;
     letter-spacing: 0.3700000047683716px;
     text-align: left;
+  }
+
+  .about_myself {
+    width: 50%;
+  }
+
+  .about_myself p {
+    margin-left: 170px;
   }
 
   .desktopsocial_media {
@@ -764,18 +774,6 @@ img.arrow {
     display: inline-flex;
   }
 
-  .about_myself {
-    width: 50%;
-  }
-
-  .about_myself h1 {
-    margin-left: 170px;
-  }
-
-  .about_myself p {
-    margin-left: 170px;
-  }
-
   .project_Desktop {
     margin-left: 170px;
   }
@@ -785,7 +783,7 @@ img.arrow {
     margin-top: 80px;
   }
 
-  .langguages_box ol{
+  .langguages_box ol {
     display: flex;
     flex-wrap: nowrap;
   }
@@ -802,7 +800,8 @@ img.arrow {
     font-size: 15px;
     padding-left: 5px;
   }
-  .list_langguages1 ol li img{
+
+  .list_langguages1 ol li img {
     min-width: 55px;
   }
 }
