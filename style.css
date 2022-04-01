@@ -829,4 +829,15 @@ img.arrow {
   .contact_me_container p {
     width: 550px;
   }
+
+  .project1:hover {
+    transform: translate(15px);
+    background-color: rgba(96, 112, 255, 1);
+    transition: 0.7s;
+    border-color: #fff;
+  }
+
+  .desktopnavbar_icon1:hover {
+    transform: rotate(5deg) translateX(20px);
+  }
 }
