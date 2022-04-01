@@ -836,4 +836,8 @@ img.arrow {
     transition: 0.7s;
     border-color: #fff;
   }
+
+  .desktopnavbar_icon1:hover {
+    transform: rotate(5deg) translateX(20px);
+  } 
 }
