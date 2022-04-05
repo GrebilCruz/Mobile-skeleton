@@ -18,9 +18,9 @@
 
 👤 **Grebil Cruz**
 
-- GitHub: [@githubhandle](https://github.com/GrebilCruz)
-- Twitter: [@twitterhandle](https://twitter.com/CruzGrebi)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/grebil-cruz-443004233/)
+- GitHub: [GrebilCruz](https://github.com/GrebilCruz)
+- Twitter: [@GrebilCruz](https://twitter.com/CruzGrebi)
+- LinkedIn: [Grebil Cruz](https://www.linkedin.com/in/grebil-cruz-443004233/)
 
 
 
